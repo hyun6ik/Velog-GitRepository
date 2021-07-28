@@ -1,6 +1,6 @@
 token:
-  expiration_time: 86400000
-  secret: potato_velog
+  expiration_time: 864
+  secret: potato_velog1
 
 gateway:
   ip: 127.0.0.1	
