@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/potato_velog
-    driver-class-name: org.h2.Driver
+    url: jdbc:mariadb://localhost:3306/potato_velog
+    driver-class-name: org.mariadb.jdbc.Driver
     username: sa
     # password: '{cipher}79aef15a8b8ba9e4552488381773e0e03a2c3b9f0e4299e5439d0e6dd0f5db42'
+    password: 123456
 
 token:
   expiration_time: 86400000
