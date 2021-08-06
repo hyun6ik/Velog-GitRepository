@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
-    username: board
+    username: velog
     # password: '{cipher}b07d379f56cbbfe02b4dd294f725b515a823dd0323aad8afeeeb1bddc7b3e133'
 
 token:
