@@ -1,0 +1,7 @@
+spring:  
+  datasource:
+    url: jdbc:mariadb://localhost:3306/potato_velog_test
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    # password: '{cipher}79aef15a8b8ba9e4552488381773e0e03a2c3b9f0e4299e5439d0e6dd0f5db42'
+    password: 123456
